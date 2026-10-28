@@ -1,0 +1,4 @@
+public/*.php
+public/**/*.php
+public/.htaccess
+public/**/*.htaccess
