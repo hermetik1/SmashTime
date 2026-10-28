@@ -1,0 +1,17 @@
+/* Hidden by default: no intro frame on reloads or without JavaScript. */
+.ring-intro{display:none}
+html[data-ring-intro] .ring-intro{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;isolation:isolate;overflow:hidden;color:#eee8e5;clip-path:polygon(evenodd,0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,50% 50%,50% 50%,50% 50%,50% 50%,50% 50%)}
+html[data-ring-intro]{overflow:hidden;background:#000}
+html[data-ring-intro="pending"] body::before{content:"";position:fixed;inset:0;background:#000;z-index:9999}
+html[data-ring-intro="pending"] .cinema.premium{visibility:hidden}
+.ring-intro-portal{position:absolute;inset:0;background:#000;z-index:-1}
+.ring-intro-scene{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%;opacity:0}
+.ring-intro[data-ready="true"] .ring-intro-scene{opacity:1;transition:opacity .25s}
+.ring-intro-ring{display:block;width:min(94vw,72svh,780px);height:auto;overflow:visible}
+.ring-intro-charge{stroke-dasharray:1;stroke-dashoffset:1}
+.ring-intro[data-ready="true"] .ring-intro-charge{animation:ring-rope-charge 3s linear forwards}
+.ring-intro-title{font-size:clamp(18px,4.5vw,26px);font-weight:500;letter-spacing:.035em;margin:4px 0 12px}
+.ring-intro-caption{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#a59999}
+html[data-ring-intro="opening"] .ring-intro{clip-path:polygon(evenodd,0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,-5% -5%,105% -5%,105% 105%,-5% 105%,-5% -5%);transition:clip-path .85s cubic-bezier(.65,0,.25,1)}
+@keyframes ring-rope-charge{to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.ring-intro *{animation:none!important;transition:none!important}.ring-intro-charge{stroke-dashoffset:0}html[data-ring-intro="opening"] .ring-intro{clip-path:none;opacity:0;transition:opacity .4s}}

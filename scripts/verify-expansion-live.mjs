@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+const origin='http://s1110988816.online.de';
+const response=await fetch(origin+'/api/index.php?action=public');assert.equal(response.status,200);
+const {published}=await response.json();
+assert.equal(published.filter(r=>r.kind==='articles').length,3);
+assert.equal(published.filter(r=>r.kind==='fightcards'&&r.data.event==='smash-time-3').length,3);
+assert.equal(published.find(r=>r.id==='smash-time-3').data.date,'2026-10-17');
+assert.equal(published.find(r=>r.id==='website').data.featuredEvent,'smash-time-3');
+assert.equal(published.find(r=>r.id==='tanyo-tanev').data.wins,10);
+assert.equal(published.some(r=>r.id.startsWith('review-')),false);
+const routes=['/','/events/','/fighters/','/media/','/partners/','/about/','/contact/','/admin/','/admin/articles/','/admin/settings/','/events/detail/?slug=smash-time-3','/fighters/detail/?slug=tanyo-tanev','/articles/detail/?slug=fight-night-guide','/sitemap.xml'];
+await Promise.all(routes.map(async path=>{const r=await fetch(origin+path);assert.equal(r.status,200,path);const html=await r.text();if(path.includes('slug=smash-time-3'))assert.ok(html.includes('<title>Smash Time 3 · SmashTime</title>'));if(path.includes('slug=fight-night-guide'))assert.ok(html.includes('<title>Dein Abend bei Smash Time 3 · SmashTime</title>'));if(path==='/sitemap.xml')assert.ok(html.includes('/articles/detail/?slug=fight-night-guide'));}));
+await Promise.all(published.filter(r=>r.data.image?.startsWith('/assets/')).map(async r=>assert.equal((await fetch(origin+r.data.image,{method:'HEAD'})).status,200,r.data.image)));
+assert.equal((await fetch(origin+'/api/index.php?action=session')).status,426);
+assert.equal((await fetch(origin+'/.env')).status,403);
+assert.equal((await fetch(origin+'/articles/detail/?slug=does-not-exist')).status,404);
+console.log(`PASS: ${routes.length} live routes, ${published.length} published records, all referenced local images, event/story metadata, sitemap, unpublished-content exclusion, HTTPS login guard, secret-file guard and missing-story 404.`);

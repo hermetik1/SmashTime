@@ -1,0 +1,7 @@
+{
+  "host": "access-example.webspace-host.com",
+  "port": 22,
+  "username": "your-sftp-user",
+  "remotePath": "/public",
+  "privateKeyPath": "C:\\Users\\PC\\.ssh\\id_ed25519_ionos_stnew"
+}

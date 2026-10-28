@@ -1,0 +1,312 @@
+{
+  "source": "https://smashtime-neu.vercel.app",
+  "retrieved": "2026-09-11",
+  "records": [
+    {
+      "id": "smash-time-3",
+      "kind": "events",
+      "slug": "smash-time-3",
+      "status": "published",
+      "data": {
+        "name": "Smash Time 3",
+        "subtitle": "Fight Night · St. Pölten",
+        "description": "Am 17. Oktober kommt SmashTime in die Jahnturnhalle: mit internationalen Paarungen, einem 2-vs-2-Turnier und einer gemeinsamen Botschaft gegen Mobbing.",
+        "date": "2026-10-17",
+        "time": "18:00",
+        "doors": "17:00",
+        "venue": "Jahnturnhalle",
+        "city": "St. Pölten",
+        "address": "Jahnstraße 15, 3100 St. Pölten",
+        "image": "/assets/events/smash-time-3/event-hero-v1.webp",
+        "ticket": "https://www.instagram.com/smash_time_st/",
+        "priceAdvance": 40,
+        "priceDoor": 45,
+        "notes": "Ticketreservierung über den offiziellen SmashTime-Account auf Instagram. Abendkasse nur bei verfügbaren Plätzen. Die endgültige Reihenfolge der Kämpfe wird am Veranstaltungstag bekanntgegeben; Änderungen bleiben möglich.",
+        "program": "Österreich-Premiere: internationales 2-vs-2-Turnier mit vier Teams zu je zwei Kämpfern.\n\nAngekündigt sind unter anderem Noah & Jara für Tschechien sowie Philipp Husmann & Julian Schäfer für Deutschland.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3",
+        "cancelled": false
+      }
+    },
+    {
+      "id": "tanyo-tanev",
+      "kind": "fighters",
+      "slug": "tanyo-tanev",
+      "status": "published",
+      "data": {
+        "name": "Tanyo Tanev",
+        "wins": 10,
+        "losses": 5,
+        "draws": 2,
+        "weightClass": "Light Heavyweight",
+        "weight": 80,
+        "origin": "",
+        "recordVerified": true,
+        "recordDate": "2026-06-30",
+        "source": "https://smashtime-neu.vercel.app/fighter/tanyo-tanev",
+        "image": "/assets/fighters/tanyo-tanev.webp",
+        "bio": "Tanyo Tanev gehört zum veröffentlichten SmashTime-Champion-Kader. Die Bilanz zum 30. Juni 2026: 10 Siege, 5 Niederlagen und 2 Unentschieden."
+      }
+    },
+    {
+      "id": "mike-capellan-rodriguez",
+      "kind": "fighters",
+      "slug": "mike-capellan-rodriguez",
+      "status": "published",
+      "data": {
+        "name": "Mike Capellan Rodriguez",
+        "wins": 15,
+        "losses": 3,
+        "draws": 1,
+        "weightClass": "Middleweight",
+        "weight": 71,
+        "origin": "Dominikanische Republik",
+        "recordVerified": true,
+        "recordDate": "2026-06-30",
+        "source": "https://smashtime-neu.vercel.app/fighter/mike-capellan-rodriguez",
+        "image": "/assets/fighters/mike-capellan-rodriguez.webp",
+        "bio": "Mike Capellan Rodriguez gehört zum veröffentlichten SmashTime-Champion-Kader. Die Bilanz zum 30. Juni 2026: 15 Siege, 3 Niederlagen und 1 Unentschieden."
+      }
+    },
+    {
+      "id": "liam-stancel",
+      "kind": "fighters",
+      "slug": "liam-stancel",
+      "status": "published",
+      "data": {
+        "name": "Liam Stancel",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "weightClass": "Middleweight",
+        "weight": 70,
+        "origin": "Großbritannien · Österreich",
+        "recordVerified": true,
+        "recordDate": "2026-06-30",
+        "source": "https://smashtime-neu.vercel.app/fighter/liam-stancel",
+        "image": "/assets/fighters/liam-stancel.webp",
+        "bio": "Liam Stancel gehört zum veröffentlichten SmashTime-Champion-Kader. Die Bilanz zum 30. Juni 2026: 7 Siege, 1 Niederlagen und 0 Unentschieden. Für Smash Time 3 ist ein Boxkampf gegen Berke Yaka angekündigt."
+      }
+    },
+    {
+      "id": "denis-berisha",
+      "kind": "fighters",
+      "slug": "denis-berisha",
+      "status": "published",
+      "data": {
+        "name": "Denis Berisha",
+        "wins": 25,
+        "losses": 1,
+        "draws": 1,
+        "weightClass": "",
+        "weight": "",
+        "origin": "",
+        "recordVerified": true,
+        "recordDate": "2026-06-30",
+        "source": "https://smashtime-neu.vercel.app/fighter/denis-berisha",
+        "image": "/assets/fighters/denis-berisha.webp",
+        "bio": "Denis Berisha gehört zum veröffentlichten SmashTime-Champion-Kader. Die Bilanz zum 30. Juni 2026: 25 Siege, 1 Niederlagen und 1 Unentschieden."
+      }
+    },
+    {
+      "id": "berke-yaka",
+      "kind": "fighters",
+      "slug": "berke-yaka",
+      "status": "published",
+      "data": {
+        "name": "Berke Yaka",
+        "recordVerified": false,
+        "bio": "Für die Fightcard von Smash Time 3 angekündigt. Weitere freigegebene Profilinformationen folgen.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "helmi-abdullah-yuwono",
+      "kind": "fighters",
+      "slug": "helmi-abdullah-yuwono",
+      "status": "published",
+      "data": {
+        "name": "Helmi Abdullah Yuwono",
+        "recordVerified": false,
+        "bio": "Für die Fightcard von Smash Time 3 angekündigt. Weitere freigegebene Profilinformationen folgen.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "dominik-balaj",
+      "kind": "fighters",
+      "slug": "dominik-balaj",
+      "status": "published",
+      "data": {
+        "name": "Dominik Balaj",
+        "recordVerified": false,
+        "bio": "Für die Fightcard von Smash Time 3 angekündigt. Weitere freigegebene Profilinformationen folgen.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "issy",
+      "kind": "fighters",
+      "slug": "issy",
+      "status": "published",
+      "data": {
+        "name": "Issy",
+        "recordVerified": false,
+        "bio": "Für die Fightcard von Smash Time 3 angekündigt. Weitere freigegebene Profilinformationen folgen.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "mad-dog",
+      "kind": "fighters",
+      "slug": "mad-dog",
+      "status": "published",
+      "data": {
+        "name": "Mad Dog",
+        "recordVerified": false,
+        "bio": "Für die Fightcard von Smash Time 3 angekündigt. Weitere freigegebene Profilinformationen folgen.",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "regelwerk-folgt",
+      "kind": "disciplines",
+      "slug": "regelwerk-folgt",
+      "status": "published",
+      "data": {
+        "name": "Regelwerk folgt",
+        "description": "Die Disziplin dieser angekündigten Paarung wird ergänzt, sobald sie veröffentlicht ist."
+      }
+    },
+    {
+      "id": "st3-main-event",
+      "kind": "fightcards",
+      "slug": "st3-main-event",
+      "status": "published",
+      "data": {
+        "name": "Main Event",
+        "event": "smash-time-3",
+        "fighterA": "liam-stancel",
+        "fighterB": "berke-yaka",
+        "discipline": "boxen",
+        "order": 1
+      }
+    },
+    {
+      "id": "st3-main-card-1",
+      "kind": "fightcards",
+      "slug": "st3-main-card-1",
+      "status": "published",
+      "data": {
+        "name": "Main Card",
+        "event": "smash-time-3",
+        "fighterA": "helmi-abdullah-yuwono",
+        "fighterB": "dominik-balaj",
+        "discipline": "boxen",
+        "order": 2
+      }
+    },
+    {
+      "id": "st3-main-card-2",
+      "kind": "fightcards",
+      "slug": "st3-main-card-2",
+      "status": "published",
+      "data": {
+        "name": "Main Card",
+        "event": "smash-time-3",
+        "fighterA": "issy",
+        "fighterB": "mad-dog",
+        "discipline": "regelwerk-folgt",
+        "order": 3
+      }
+    },
+    {
+      "id": "lifestyle-austria",
+      "kind": "partners",
+      "slug": "lifestyle-austria",
+      "status": "published",
+      "data": {
+        "name": "Lifestyle Austria",
+        "tier": "Eventpartner",
+        "description": "Lifestyle Austria unterstützt SmashTime als Eventpartner."
+      }
+    },
+    {
+      "id": "pure-violence",
+      "kind": "partners",
+      "slug": "pure-violence",
+      "status": "published",
+      "data": {
+        "name": "Pure Violence",
+        "tier": "Eventpartner",
+        "description": "Pure Violence unterstützt SmashTime als Eventpartner."
+      }
+    },
+    {
+      "id": "figl-ratzersdorf",
+      "kind": "partners",
+      "slug": "figl-ratzersdorf",
+      "status": "published",
+      "data": {
+        "name": "Figl Ratzersdorf",
+        "tier": "VIP-Catering",
+        "description": "Figl Ratzersdorf unterstützt SmashTime als VIP-Catering."
+      }
+    },
+    {
+      "id": "fight-night-guide",
+      "kind": "articles",
+      "slug": "fight-night-guide",
+      "status": "published",
+      "data": {
+        "name": "Dein Abend bei Smash Time 3",
+        "category": "Events",
+        "date": "2026-07-25",
+        "description": "Termin, Tickets und die wichtigsten Informationen für deinen Besuch in St. Pölten.",
+        "body": "Am 17. Oktober 2026 findet Smash Time 3 in der Jahnturnhalle in St. Pölten statt. Einlass ist um 17 Uhr, Veranstaltungsbeginn um 18 Uhr.\n\nDer Vorverkauf kostet 40 Euro. Reservierungen laufen über den offiziellen SmashTime-Account auf Instagram. An der Abendkasse kosten verfügbare Plätze 45 Euro.\n\nDie angekündigte Fightcard umfasst unter anderem Liam Stancel gegen Berke Yaka. Hinzu kommt ein internationales 2-vs-2-Turnier. Die aktuelle Eventseite bündelt Paarungen und Besucherinformationen.",
+        "image": "/assets/news/fight-night-guide-v1.webp",
+        "event": "smash-time-3",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    },
+    {
+      "id": "staerke-zeigt-respekt",
+      "kind": "articles",
+      "slug": "staerke-zeigt-respekt",
+      "status": "published",
+      "data": {
+        "name": "Stärke zeigt sich im Respekt",
+        "category": "Werte",
+        "date": "2026-07-25",
+        "description": "Warum die Haltung gegen Mobbing zur SmashTime Fight Night gehört.",
+        "body": "Im Kampfsport gehören Leistung und Verantwortung zusammen. Wer gemeinsam trainiert und sich im Wettkampf begegnet, braucht Regeln, Selbstkontrolle und Respekt.\n\nSmashTime trägt diesen Gedanken über den Ring hinaus: Die Fight Night steht auch für ein klares Nein zu Mobbing. Athletinnen, Athleten und Publikum gestalten gemeinsam, wie sich ein Abend anfühlt.\n\nDer sportliche Wettstreit bleibt auf der Bühne. Wertschätzung gilt davor, danach und außerhalb der Arena.",
+        "image": "/assets/news/respekt-haltung-v1.webp",
+        "source": "https://smashtime-neu.vercel.app/"
+      }
+    },
+    {
+      "id": "internationales-teamformat",
+      "kind": "articles",
+      "slug": "internationales-teamformat",
+      "status": "published",
+      "data": {
+        "name": "Zwei im Team. Gemeinsam in der Arena.",
+        "category": "Fight Night",
+        "date": "2026-07-25",
+        "description": "Das angekündigte internationale 2-vs-2-Turnier bei Smash Time 3.",
+        "body": "Für Smash Time 3 ist ein internationales Turnier mit vier Zweierteams angekündigt. Das Format setzt neben dem individuellen Auftritt auch das gemeinsame Antreten in den Mittelpunkt.\n\nFür Tschechien sind Noah und Jara genannt. Philipp Husmann und Julian Schäfer bilden das angekündigte Team Deutschland.\n\nWeitere Informationen zum Turnier und zum Ablauf erscheinen auf der Eventseite, sobald sie bestätigt sind.",
+        "image": "/assets/news/two-vs-two-team-format-v1.webp",
+        "event": "smash-time-3",
+        "source": "https://smashtime-neu.vercel.app/veranstaltungen/smash-time-3"
+      }
+    }
+  ],
+  "settings": {
+    "featuredEvent": "smash-time-3",
+    "showCountdown": true,
+    "instagram": "https://www.instagram.com/smash_time_st/",
+    "aboutTitle": "EINE ARENA. EIN RUF.",
+    "aboutBody": "SmashTime ist Kampfsport aus St. Pölten. Wir bringen Athletinnen, Athleten und Publikum für einen gemeinsamen Abend zusammen: mit klaren Paarungen, durchdachter Inszenierung und einer Haltung, die über den Wettkampf hinausreicht.\n\nLeistung, Respekt und Gemeinschaft stehen für uns auf derselben Bühne. Dazu gehört ein klares Nein zu Mobbing – im Sport und im Alltag.",
+    "contactIntro": "Tickets, Presse, Kooperation oder Fragen zum Besuch: Nimm direkt Kontakt mit dem SmashTime-Team auf. Ticketreservierungen laufen aktuell über unseren offiziellen Instagram-Account.",
+    "footerText": "Kampfsport aus St. Pölten. Für alle, die den Abend mittragen."
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": "1.0",
+  "sourceType": "public_social_snapshot",
+  "platform": "Instagram",
+  "retrievedAt": "2026-09-16",
+  "retrievalScope": "Öffentlich sichtbare Profil- und Beitragsdaten beim Abruf im Browser; kein vollständiger historischer Export.",
+  "editorialStatus": "source_archive_only",
+  "publicationPolicy": "Nicht automatisch als bestätigter Website- oder Veranstaltungstext veröffentlichen. Vor Veröffentlichung redaktionell prüfen und Nutzungsrechte für Medien klären.",
+  "profiles": [
+    {
+      "id": "instagram-smash-time-international",
+      "username": "smash_time_international",
+      "displayName": "Smash Time International",
+      "profileUrl": "https://www.instagram.com/smash_time_international/",
+      "followersObserved": 1771,
+      "followingObserved": 262,
+      "bioObserved": "❌17. Oktober-Jahnstrasse 15, 3100 St.Pölten🇦🇹❌27. März-Mainz 🇩🇪 @smash_time_bl ❌Online Tickets 🇦🇹 🇩🇪⬇️⬇️⬇️",
+      "linksObserved": [
+        {
+          "label": "Online Tickets",
+          "url": "https://ticketladen.at/events/smash-time-3",
+          "confidence": "observed_link_target"
+        }
+      ],
+      "additionalLinksCountObserved": 1,
+      "profileImage": {
+        "localPath": "/assets/social/instagram/smash-time-international/raw-248253ebc23b1cb7.jpg",
+        "altObserved": "smash_time_internationals Profilbild"
+      },
+      "posts": [
+        {
+          "shortcode": "Dbv4SS2s-Hx",
+          "url": "https://www.instagram.com/smash_time_international/p/Dbv4SS2s-Hx/",
+          "mediaType": "post",
+          "dateObserved": "2026-08-07",
+          "altObserved": "Plakat mit kommenden Terminen: 17. St. Pölten, 27. Mainz und Borderland.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-7184da6ecf620d3a.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DaaBf38sdFj",
+          "url": "https://www.instagram.com/smash_time_international/reel/DaaBf38sdFj/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-07-05",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-3659c98c8171c84f.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "Dafa48tMZqy",
+          "url": "https://www.instagram.com/smash_time_international/p/Dafa48tMZqy/",
+          "mediaType": "post",
+          "dateObserved": "2026-07-07",
+          "altObserved": "Plakat und Zeitschriften.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-878f2aa5debcdddc.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdUWYXsIAyi",
+          "url": "https://www.instagram.com/pandadangld/reel/DdUWYXsIAyi/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-15",
+          "altObserved": "Video von Dominik Dangl.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-f6fe461b8b860304.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdTqe9jNjjn",
+          "url": "https://www.instagram.com/willi.ott.148/reel/DdTqe9jNjjn/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-15",
+          "altObserved": "Video von Wilhelm Ott.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-73e24f3cd5e0aa4c.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdRQDOwsGjn",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdRQDOwsGjn/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-14",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-4849d47e775b9df1.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdMSmU4scsC",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdMSmU4scsC/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-12",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-57b364956deafdb0.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdMHHsgs03R",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdMHHsgs03R/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-12",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-ddbec18568f5e7fe.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdJeAUlu6oJ",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdJeAUlu6oJ/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-11",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-f928f6126cb6b341.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdJHZ9NOvrs",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdJHZ9NOvrs/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-11",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-df0919225a6873ad.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdHDwAEsYQm",
+          "url": "https://www.instagram.com/smash_time_international/reel/DdHDwAEsYQm/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-09-10",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-a937414863a0cc04.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdEeRufMRck",
+          "url": "https://www.instagram.com/smash_time_borderland/p/DdEeRufMRck/",
+          "mediaType": "cross_profile_post",
+          "dateObserved": "2026-09-09",
+          "altObserved": "CHRISTMAS RAGE im Clubhaus, Aarstraße 200, 65232 Taunusstein.",
+          "localAsset": "/assets/social/instagram/smash-time-international/raw-408f2301c8a04e48.webp",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        }
+      ]
+    },
+    {
+      "id": "instagram-smash-time-borderland",
+      "username": "smash_time_borderland",
+      "displayName": "Smash Time Borderland",
+      "profileUrl": "https://www.instagram.com/smash_time_borderland/",
+      "followersObserved": 130,
+      "followingObserved": 40,
+      "bioObserved": "17.10.2026 Jahnstraße 15, 3100 St.Pölten 19.12.2026 Aarstraße 200, 65232 Taunusstein 27.03.2027 Mombacherstraße 11-15,",
+      "bioTruncated": true,
+      "linksObserved": [
+        {
+          "label": "Online Tickets",
+          "url": "https://ticketladen.at/events/smash-time-3",
+          "confidence": "observed_link_target"
+        }
+      ],
+      "additionalLinksCountObserved": 2,
+      "profileImage": {
+        "localPath": "/assets/social/instagram/smash-time-borderland/raw-c2e76ff833192900.jpg",
+        "altObserved": "smash_time_borderlands Profilbild"
+      },
+      "posts": [
+        {
+          "shortcode": "Db_I93GMW6L",
+          "url": "https://www.instagram.com/smash_time_borderland/reel/Db_I93GMW6L/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-08-13",
+          "altObserved": "Video von Smash Time Borderland; SMASH TIME.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-87d751073846ea5b.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "Dclc0_wsGqR",
+          "url": "https://www.instagram.com/smash_time_borderland/p/Dclc0_wsGqR/",
+          "mediaType": "post",
+          "dateObserved": "2026-08-28",
+          "altObserved": "Partner-Post.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-6f7cd69e10a58434.webp",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcBzFoRsVfZ",
+          "url": "https://www.instagram.com/smash_time_borderland/reel/DcBzFoRsVfZ/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-08-14",
+          "altObserved": "Video von Smash Time Borderland.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-7bee885f3784290b.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DdEeRufMRck",
+          "url": "https://www.instagram.com/smash_time_borderland/p/DdEeRufMRck/",
+          "mediaType": "post",
+          "dateObserved": "2026-09-09",
+          "altObserved": "CHRISTMAS RAGE im Clubhaus, Einlass 18:00, Start 19:30, Tickets 50.- inklusive Buffet, Bareknuckle Light 80-90 kg, Aarstraße 200, 65232 Taunusstein.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-1bd424c4630c410e.webp",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcqrEgxs3JY",
+          "url": "https://www.instagram.com/smash_time_international/reel/DcqrEgxs3JY/",
+          "mediaType": "cross_profile_reel_preview",
+          "dateObserved": "2026-08-30",
+          "altObserved": "Video von Smash Time International: Europatitel in One Minute.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-c78476eac3db376e.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcgPAJ3MFYw",
+          "url": "https://www.instagram.com/smash_time_borderland/p/DcgPAJ3MFYw/",
+          "mediaType": "post",
+          "dateObserved": "2026-08-26",
+          "altObserved": "CBF; Termin 27.03.2027.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-5f7b09d28ce14638.webp",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcgOlWnMDgR",
+          "url": "https://www.instagram.com/smash_time_international/reel/DcgOlWnMDgR/",
+          "mediaType": "cross_profile_reel_preview",
+          "dateObserved": "2026-08-26",
+          "altObserved": "Video von Smash Time International: CBF Continental Boxing Federation.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-2c2f2b27df894851.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DclLW8Es3iV",
+          "url": "https://www.instagram.com/smash_time_borderland/p/DclLW8Es3iV/",
+          "mediaType": "post",
+          "dateObserved": "2026-08-28",
+          "altObserved": "Anmeldebedingungen: 4oz Handschuhe, 80-90 kg, Rundenzeit 1 Minute, 2 versus 2, Cage 6 Meter.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-2c03bec18bb9126c.webp",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "Db-qp0Ltpuh",
+          "url": "https://www.instagram.com/willi.ott.148/reel/Db-qp0Ltpuh/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-08-13",
+          "altObserved": "Video von Wilhelm Ott.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-e03cd4e630b6a772.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcWKafws0_U",
+          "url": "https://www.instagram.com/smash_time_international/reel/DcWKafws0_U/",
+          "mediaType": "cross_profile_reel_preview",
+          "dateObserved": "2026-08-22",
+          "altObserved": "Video von Smash Time International.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-48b55465ec29b9d4.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "Dcip63nsOZE",
+          "url": "https://www.instagram.com/smash_time_international/p/Dcip63nsOZE/",
+          "mediaType": "cross_profile_post",
+          "dateObserved": "2026-08-27",
+          "altObserved": "Konzert.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-ac6e12e477d6dbf1.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        },
+        {
+          "shortcode": "DcGMTM9MZ_R",
+          "url": "https://www.instagram.com/smash_time_borderland/reel/DcGMTM9MZ_R/",
+          "mediaType": "reel_preview",
+          "dateObserved": "2026-08-16",
+          "altObserved": "Video von Smash Time Borderland.",
+          "localAsset": "/assets/social/instagram/smash-time-borderland/raw-c35c03d9b08e14ca.jpg",
+          "mappingConfidence": "observed_order",
+          "status": "source_only"
+        }
+      ]
+    }
+  ],
+  "eventLeads": [
+    {
+      "id": "st-poelten-2026-10-17",
+      "date": "2026-10-17",
+      "location": "Jahnstraße 15, 3100 St. Pölten, Österreich",
+      "sourceRefs": ["instagram-smash-time-international", "instagram-smash-time-borderland"],
+      "status": "needs_editorial_review"
+    },
+    {
+      "id": "taunusstein-christmas-rage-2026-12-19",
+      "date": "2026-12-19",
+      "titleObserved": "Christmas Rage",
+      "location": "Aarstraße 200, 65232 Taunusstein, Deutschland",
+      "doorsObserved": "18:00",
+      "startObserved": "19:30",
+      "ticketPriceObserved": "50 EUR inklusive Buffet",
+      "formatObserved": "Bareknuckle Light 80-90 kg",
+      "sourceRefs": ["DdEeRufMRck"],
+      "status": "needs_editorial_review"
+    },
+    {
+      "id": "mainz-2027-03-27",
+      "date": "2027-03-27",
+      "locationObserved": "Mombacherstraße 11-15, Mainz, Deutschland",
+      "formatObserved": "CBF; Angaben zu 4 oz Handschuhen, 80-90 kg, 1-Minuten-Runden, 2-versus-2 und 6-m-Cage",
+      "sourceRefs": ["instagram-smash-time-international", "instagram-smash-time-borderland", "DcgPAJ3MFYw", "DclLW8Es3iV"],
+      "status": "needs_editorial_review"
+    }
+  ]
+}

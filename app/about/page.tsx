@@ -1,0 +1,6 @@
+import {PublicShell} from "@/components/public-shell";
+import {PublicIntro} from "@/components/public-content";
+import Link from "next/link";
+import {AboutCopy} from "@/components/site-extras";
+export const metadata={title:"Unsere DNA",description:"SmashTime steht für Respekt, sportliche Haltung und die besondere Energie einer Fight Night."};
+export default function Page(){return <PublicShell><PublicIntro label="03 / Our DNA" title="RESPECT IS" accent="EARNED." copy="Wir glauben an die Menschen, die jeden Tag für ihren Moment arbeiten." image="/assets/pages/heroes/about-hero-v1.webp"/><section className="cinema-wrap premium-section"><div className="premium-detail-grid"><div><span className="cinema-label">Wofür wir stehen</span><AboutCopy/></div><div className="premium-values">{[["01","Respekt","Vor dem Gegner. Vor der Arbeit. Vor dem Sport."],["02","Haltung","Echte Geschichten beginnen lange vor dem ersten Gong."],["03","Gemeinschaft","Eine Arena lebt von den Menschen, die sie zusammenbringen."]].map(([n,t,c])=><article key={n}><span className="cinema-label">{n}</span><h3>{t}</h3><p>{c}</p></article>)}</div></div><Link className="cinema-button" href="/events">Erlebe SmashTime ↗</Link></section></PublicShell>;}

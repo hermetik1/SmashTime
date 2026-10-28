@@ -30,8 +30,14 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# private local configuration
 .env*
+!.env.example
+/ionos-deploy.local.json
+/backend/*.local.*
+/.codex-remote-attachments/
+/AGENTS.md
+/CLAUDE.md
 
 # vercel
 .vercel
@@ -39,3 +45,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/artifacts/
+

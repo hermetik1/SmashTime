@@ -1,0 +1,191 @@
+/* Shared reading insets. Images may reach card edges; copy and controls may not. */
+:root {
+  --reading-inset: clamp(20px, 2.1vw, 28px);
+}
+
+.cinema :is(h1, h2, h3, p, a, dt, dd, small, .cinema-label, .film-eyebrow),
+.control-layout :is(h1, h2, h3, p, a, button, label, small, strong, span),
+.control-login {
+  overflow-wrap: anywhere;
+}
+.premium-grid > *, .premium-detail-grid > *, .film-event-grid > *,
+.film-roster-stage > *, .film-section-heading > *, .control-heading > *,
+.control-form-heading > *, .control-fields > *, .control-dashboard > * {
+  min-width: 0;
+}
+.premium-card-body, .premium-card-events .premium-card-body,
+.film-stories .premium-card-body {
+  padding: var(--reading-inset);
+}
+.premium-aside, .ticket-grid > div, .film-empty {
+  padding: var(--reading-inset);
+}
+.premium-detail-hero h1 { margin-bottom: 20px; }
+.premium-detail-hero p { margin: 0 0 20px; }
+.premium-detail-hero p:empty { display: none; }
+.premium-aside > .cinema-label { display: block; margin-bottom: 16px; }
+.premium-aside h3 { margin: 0 0 18px; }
+.premium-aside p + p, .premium-aside .cinema-text-link,
+.premium-record + .cinema-text-link, .ticket-grid + p,
+.article-page > .cinema-button + p { margin-top: 20px; }
+.premium-detail-grid .cinema-copy { margin-bottom: 24px; }
+.cinema-footer p { margin: 16px 0; line-height: 1.7; }
+.film-fighter-copy {
+  padding: 32px var(--reading-inset);
+}
+.film-bout, .premium-fight {
+  padding-inline: var(--reading-inset);
+}
+.film-bout-names { grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr); }
+.film-record, .film-times { flex-wrap: wrap; }
+.film-roster-controls { padding-block: 8px; }
+.film-arrow-controls { padding: 12px; }
+.film-fighter-picker { min-width: 0; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.film-fighter-picker button { overflow-wrap: anywhere; }
+.partner-strip > div > a { padding: 12px 16px; }
+.cinema :is(.cinema-button, .film-button, .film-link, .cinema-text-link),
+.control-outline, .control-main .cinema-button, .control-login .cinema-button {
+  max-width: 100%;
+  white-space: normal;
+}
+.cinema :is(.cinema-button, .film-button) { gap: 16px; }
+.cinema :is(.film-button, .film-link) > span { flex-shrink: 0; }
+.premium-toolbar :is(input, select), .control-toolbar :is(input, select),
+.control-form :is(input, select, textarea) { min-width: 0; max-width: 100%; }
+.premium-toolbar select { max-width: 100%; }
+.premium-facts > div > * { min-width: 0; }
+.premium-facts dt { flex: 0 0 35%; }
+.cinema-footer nav { flex-wrap: wrap; }
+
+/* The editing column can be narrow even on a large display. */
+.control-form { container-type: inline-size; }
+/* File inputs stay accessible without inheriting the visible field dimensions. */
+.control-form input.sr-only {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.control-form-heading > button {
+  flex: none;
+  width: auto;
+  min-width: 84px;
+  min-height: 44px;
+  padding: 10px 12px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffffff20;
+  border-radius: 6px;
+}
+.control-toolbar select { flex: 1 1 170px; }
+.control-toolbar .control-search { flex: 2 1 220px; }
+.control-list-title { flex-wrap: wrap; gap: 8px 16px; line-height: 1.6; }
+.control-row small { overflow-wrap: anywhere; }
+.control-main .control-icon { flex: none; width: 44px; height: 44px; }
+.control-record { padding: 8px; margin-left: -8px; }
+.control-form-actions {
+  position: static;
+  padding-block: 20px;
+  margin-top: 24px;
+}
+.control-confirm { display: flex; flex-wrap: wrap; gap: 12px; }
+.control-confirm p { flex-basis: 100%; margin: 0; }
+.control-confirm button { margin: 0; padding: 12px 16px; }
+.control-message button { padding: 10px 12px; margin-left: 8px; }
+.control-session { align-items: center; flex-wrap: wrap; gap: 8px 20px; }
+.control-session button { min-height: 36px; padding: 8px 12px; }
+.control-login { padding: clamp(24px, 5vw, 45px); }
+.control-login h1 { font-size: clamp(48px, 10vw, 80px); }
+.preview-toolbar > div { min-width: 0; }
+.preview-toolbar [role="group"] { display: flex; flex-wrap: wrap; gap: 8px; }
+
+@container (max-width: 460px) {
+  .control-fields, .control-image-picker { grid-template-columns: minmax(0, 1fr); }
+  .control-fields .wide { grid-column: 1; }
+  .control-image-preview { border-right: 0; border-bottom: 1px solid #ffffff14; }
+  .control-form-actions > button { width: 100%; }
+}
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .film-event-grid, .film-roster-stage { gap: 28px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .film-event-poster { padding: 24px; }
+  .film-bout { grid-template-columns: 24px minmax(0, 1fr); }
+  .film-bout-discipline { grid-column: 2; text-align: left; }
+  .film-roster-controls { flex-wrap: wrap; }
+  .film-fighter-picker { flex-basis: 100%; }
+}
+@media (max-width: 760px) {
+  .film-bout-names { grid-template-columns: minmax(0, 1fr); }
+  .film-fighter-picker { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .film-roster-controls { flex-wrap: wrap; }
+  .film-fighter-picker { flex-basis: 100%; }
+  .film-arrow-controls { width: 100%; justify-content: flex-end; }
+  .cinematic-home .film-hero-foot { justify-content: center; text-align: center; }
+  .cinematic-home .film-hero-foot > p { flex-basis: 100%; max-width: none; text-align: center; }
+  .premium-toolbar select { flex: 1 1 170px; }
+  .control-form :is(input:not([type="checkbox"]), textarea, select),
+  .control-toolbar :is(input, select), .control-login input,
+  .premium-toolbar :is(input, select) { font-size: 16px; }
+}
+@media (max-width: 480px) {
+  .control-toolbar select { flex-basis: 100%; width: 100%; }
+  .control-list .control-record { flex-basis: 100%; }
+  .control-list .control-status { margin-right: auto; }
+  .control-list .control-row { gap: 8px; }
+  .control-kpis > a { padding: 16px; }
+  .ticket-grid { grid-template-columns: minmax(0, 1fr); }
+  .premium-fight { grid-template-columns: minmax(0, 1fr) 24px minmax(0, 1fr); gap: 10px; }
+  .countdown-digits { gap: 6px; }
+  .countdown-digits > div { padding-left: 8px; }
+  .countdown-digits span { font-size: 10px; }
+  .film-event-info .countdown-digits span { font-size: 10px; }
+  .film-event-info .countdown-digits strong { font-size: 36px; }
+  .dashboard-focus .countdown-digits > div { padding-left: 6px; }
+  .dashboard-focus .countdown-digits span { font-size: 9px; }
+}
+
+/* Consistent inset for native select controls across public pages and editors. */
+select:not([multiple]):not([size]) {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23bec3cc' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px 16px;
+  padding-inline-end: 44px;
+  min-height: 44px;
+  color-scheme: dark;
+}
+select:not([multiple]):not([size]):focus-visible {
+  outline: 2px solid #e1c795;
+  outline-offset: 3px;
+}
+.control-toolbar > select, .premium-toolbar > select { flex-basis: 220px; }
+@media (max-width: 600px) {
+  /* Keep long filter labels readable alongside the inset arrow. */
+  .control-toolbar > select { grid-column: 1 / -1; }
+}
+@media (forced-colors: active) {
+  select:not([multiple]):not([size]) {
+    appearance: auto;
+    -webkit-appearance: auto;
+    background-image: none;
+    padding-inline-end: 12px;
+  }
+}
+
+
+/* Keep the verified record aligned as a readable unit on narrow profiles. */
+@media (max-width: 480px) {
+  .premium-record { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .premium-record:has(> :nth-child(4)) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .premium-record > div { min-width: 0; }
+  .premium-record strong { font-size: clamp(38px, 12vw, 52px); }
+  .premium-record span { display: block; font-size: 11px; line-height: 1.5; }
+}

@@ -1,0 +1,18 @@
+Options -Indexes
+DirectoryIndex index.html
+AddType image/webp .webp
+<IfModule mod_headers.c>
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set Referrer-Policy "strict-origin-when-cross-origin"
+ Header always set X-Frame-Options "SAMEORIGIN"
+ Header always set Content-Security-Policy "frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+</IfModule>
+<FilesMatch "^\.">
+ Require all denied
+</FilesMatch>
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteRule ^$ cms-page.php [L]
+ RewriteRule ^(events|fighters|articles)/detail/?$ cms-page.php [L,QSA]
+ RewriteRule ^sitemap\.xml$ cms-page.php [L]
+</IfModule>

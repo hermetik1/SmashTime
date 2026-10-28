@@ -1,0 +1,39 @@
+/* One transparent matchup mark, scaled without cropping or distortion. */
+.fight-vs {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--fight-vs-width, 56px);
+  max-width: 100%;
+  aspect-ratio: 4 / 3;
+  flex: none;
+  vertical-align: middle;
+  line-height: 0;
+}
+.fight-vs > img { display: block; width: 100%; height: auto; object-fit: contain; }
+.film-bout-names { --fight-vs-width: 64px; grid-template-columns: minmax(0, 1fr) 64px minmax(0, 1fr); }
+.film-bout-names > strong:first-child, .premium-fight > strong:first-of-type { text-align: right; }
+.film-bout-names > .fight-vs, .premium-fight > .fight-vs { justify-self: center; }
+.premium-fight { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 56px minmax(0, 1fr); }
+.premium-fight > strong { min-width: 0; }
+.preview-matchup { display: grid; grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr); gap: 12px; align-items: center; }
+.preview-matchup > span { min-width: 0; overflow-wrap: anywhere; }
+.preview-matchup .fight-vs { --fight-vs-width: 48px; }
+.control-order-panel .control-order-match { display: grid; grid-template-columns: minmax(0, 1fr) 40px minmax(0, 1fr); gap: 8px; align-items: center; }
+.control-order-match .fight-vs, .compact-fight-names .fight-vs, .builder-fight-match .fight-vs { --fight-vs-width: 40px; }
+.control-order-match > span { min-width: 0; }
+.compact-fight-names, .builder-fight-match, .fight-matchup { gap: 12px; }
+@media (max-width: 760px) {
+  .premium-fight { grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr); gap: 12px; --fight-vs-width: 48px; }
+  .film-bout-names { --fight-vs-width: 48px; grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr); gap: 12px; }
+}
+@media (max-width: 480px) {
+  .film-bout-names { grid-template-columns: minmax(0, 1fr); }
+  .film-bout-names > strong:first-child { text-align: left; }
+  .film-bout-names > .fight-vs { justify-self: start; }
+  .control-order-panel .control-order-match { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .compact-fight-names, .builder-fight-match { flex-wrap: wrap; }
+}
+@container (max-width: 360px) {
+  .preview-matchup { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; }
+}
