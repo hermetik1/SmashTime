@@ -40,7 +40,7 @@
 3. Nur `out/` hochladen. Private Backend-Dateien werden separat außerhalb des Webroots installiert. Uploads und andere fremde Serverdateien nicht entfernen.
 4. HTTP-Routen, PHP-API, Sitemap, Metadata, Secret-Zugriff und Logs prüfen.
 
-Vercel stellt den Frontend-Quellstand als separate Vorschau bereit. Sie ist absichtlich nicht mit dem produktiven IONOS-CMS verbunden, damit Teständerungen keine Live-Inhalte verändern. Admin- und API-Abläufe benötigen ein separates Staging-Backend.
+Vercel stellt den Branch `preview` als separate Vorschau bereit; `main` bleibt der Quellstand für IONOS. Die Vercel-Vorschau ist absichtlich nicht mit dem produktiven IONOS-CMS verbunden, damit Teständerungen keine Live-Inhalte verändern. Admin- und API-Abläufe benötigen ein separates Staging-Backend.
 
 Die Admin-Sitzung verwendet HttpOnly-, Secure- und SameSite=Strict-Cookies. Schreibzugriffe benötigen ein CSRF-Token. Login-Versuche sind begrenzt; Passwörter werden nicht im Frontend gespeichert. Der öffentliche Organisationsbereich verlangt HTTPS. Solange das SSL-Zertifikat für die Domain nicht funktioniert, bleibt dort die Passworteingabe gesperrt.
 
