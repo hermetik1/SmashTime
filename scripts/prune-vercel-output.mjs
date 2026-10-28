@@ -1,4 +1,4 @@
-import { readdir, rm } from "node:fs/promises";
+import { access, readdir, rm } from "node:fs/promises";
 import path from "node:path";
 
 if (process.env.VERCEL === "1") {
@@ -17,6 +17,7 @@ if (process.env.VERCEL === "1") {
     }
   }
 
-  await removeServerFiles(outputDirectory);
+  await access(outputDirectory).then(() => removeServerFiles(outputDirectory)).catch(() => undefined);
+  // Vercel builds run in a disposable checkout. Never publish the IONOS PHP backend source.
   await removeServerFiles(publicDirectory);
 }

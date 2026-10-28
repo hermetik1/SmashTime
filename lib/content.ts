@@ -32,7 +32,7 @@ export const labels: Record<Kind,string> = {fighters:"Athleten",events:"Events",
 export const recordSchema = z.object({ id:z.string().min(1),kind:z.enum(kinds),slug:z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),status:z.enum(["draft","published","archived"]),data:z.record(z.string(),z.union([z.string(),z.number(),z.boolean()])),updated_at:z.string() });
 export type ContentRecord = z.infer<typeof recordSchema>;
 export const safeURL = (value: unknown) => typeof value === "string" && /^https?:\/\/[^\s]+$/i.test(value) ? value : "";
-export const assetURL = (value: unknown) => typeof value === "string" && (/^\/assets\/[a-zA-Z0-9/_.-]+$/.test(value) || safeURL(value)) ? value : "";
+export const assetURL = (value: unknown) => typeof value === "string" && (/^\/assets\/[a-zA-Z0-9/_.-]+$/.test(value) || /^\/api\/assets\/[a-f0-9]{32}$/.test(value) || safeURL(value)) ? value : "";
 export const textValue = (r:ContentRecord,key:string) => String(r.data[key] ?? "");
 export const displayDate = (value:unknown) => typeof value==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(value)?new Date(`${value}T12:00:00Z`).toLocaleDateString("de-AT",{day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Vienna"}):"Termin folgt";
 export const slugify = (value:string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");

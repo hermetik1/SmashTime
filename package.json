@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3089",
-    "build": "next build && node scripts/prune-vercel-output.mjs",
+    "build": "node scripts/build.mjs",
     "start": "next start -p 3089",
     "preview": "node scripts/preview.mjs",
     "lint": "eslint",
@@ -13,9 +13,12 @@
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.116.0",
+    "bcryptjs": "^3.0.3",
     "next": "16.3.4",
+    "pg": "^8.23.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "sharp": "^0.35.5",
     "zod": "^4.6.1"
   },
   "devDependencies": {
@@ -23,6 +26,7 @@
     "@emnapi/runtime": "1.11.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

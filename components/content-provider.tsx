@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 import { initialRecords, recordSchema, validateRecord, type ContentRecord } from "@/lib/content";
 import { api } from "@/lib/api";
 
-export const connected = process.env.NODE_ENV === "production" || process.env.NEXT_PUBLIC_CMS_API === "ionos";
+export const connected = process.env.NODE_ENV === "production" || process.env.NEXT_PUBLIC_CMS_API === "ionos" || process.env.NEXT_PUBLIC_CMS_API === "vercel";
 const localKey="smashtime-control-v1";
 type State={drafts:ContentRecord[];published:ContentRecord[]};
 const initial:State={drafts:initialRecords,published:initialRecords.filter(r=>r.status==="published")};
